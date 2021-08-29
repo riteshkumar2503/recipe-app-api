@@ -121,4 +121,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = 'core.CustomUser111'
+AUTH_USER_MODEL = 'core.CustomUserModel111'

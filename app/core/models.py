@@ -24,7 +24,7 @@ class CustomUserManager123(BaseUserManager):
         user456.save(using=self._db)
         return user456
 
-class CustomUser111(AbstractBaseUser, PermissionsMixin):
+class CustomUserModel111(AbstractBaseUser, PermissionsMixin):
     """Custom user model that supports using email instead of username"""
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
